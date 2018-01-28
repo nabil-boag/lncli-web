@@ -9,6 +9,8 @@ program
 	.option("-x, --httpsport [port]", "web server https listening port (defaults to 8283)")
 	.option("-h, --serverhost [host]", "web server listening host (defaults to localhost)")
 	.option("-l, --lndhost [host:port]", "RPC lnd host (defaults to localhost:10009)")
+	.option("-c, --lndCertPath [path]", "path to a diectory containing the lnd.cert file")
+	.option("-m, --macaroonPath [path]", "path to a diectory containing the admin.macaroon file")
 	.option("-t, --usetls [path]", "path to a directory containing key.pem and cert.pem files")
 	.option("-u, --user [login]", "basic authentication login")
 	.option("-p, --pwd [password]", "basic authentication password")
